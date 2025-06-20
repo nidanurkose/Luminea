@@ -1,3 +1,4 @@
 # Luminea
 Istinye University Student Projects
- Nida Nur Köse & Ayşegül Bulut
+ [Nida Nur Köse & Ayşegül Bulut]
+ 
