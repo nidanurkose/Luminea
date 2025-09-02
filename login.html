@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="login.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./images/logoo.png" />
+
+              </div>
+
+              <div class="heading">
+                <h2>HOŞGELDİNİZ</h2>
+                <h6>Henüz kayıt olmadınız mı?</h6>
+                <a href="#" class="toggle">Kayıt ol</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>İsim soyisim</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Şifre</label>
+                </div>
+
+                <input type="submit" value="Giriş yap" class="sign-btn" />
+
+                <p class="text">
+                    Şifrenizi mi unuttunuz?
+                  <a href="#">Yardım al</a>
+                </p>
+              </div>
+            </form>
+
+            <form action="login.html" autocomplete="off" class="sign-up-form">
+              <div class="heading">
+                <h2>Hadi başlayalım</h2>
+                <h6>Zaten bir hesabınız var mı?</h6>
+                <a href="#" class="toggle">Oturum aç</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>İsim soyisim</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>e-mail</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>şifre</label>
+                </div>
+
+                <input type="submit" value="Kayıt ol" class="sign-btn" />
+
+                <p class="text">
+                  Kaydolarak, şunları kabul ediyorum:
+                  <a href="#">Hizmet Şartları</a> and
+                  <a href="#">Gizlilik Politikası</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image1.png" class="image img-1 show" alt="" />
+              <img src="./img/image2.png" class="image img-2" alt="" />
+              <img src="./img/image3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Cilt bakım rutuninizi birlikte oluşturalım!</h2>
+                  <h2>Favorilerinizi konuşalım!</h2>
+                  <h2>İndirimlerden haberdar ol!</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
